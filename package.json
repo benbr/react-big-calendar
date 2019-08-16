@@ -40,7 +40,7 @@
     "test": "npm run lint && jest",
     "tdd": "jest --watch",
     "release": "rollout",
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write ",
     "precommit": "lint-staged"
   },
